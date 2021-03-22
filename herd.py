@@ -8,9 +8,9 @@ class Herd:
         self.populate_herd()
 
     def populate_herd(self):
-        dino1 = Dino('Trike', 15, 10, 3)
-        dino2 = Dino('Raptor', 10, 10, 5)
-        dino3 = Dino('TRex', 10, 10, 4)
+        dino1 = Dino('Trike', 4, 10, 3)
+        dino2 = Dino('Raptor', 4, 10, 5)
+        dino3 = Dino('TRex', 4, 10, 4)
         self.dinos = [dino1, dino2, dino3]
 
     #   def print_herd(self):

@@ -9,3 +9,6 @@ class Robot:
         self.Weapon = Weapon()
         self.Attack_Power = self.Weapon.attack_damage
 
+    def damage_taken(self,damage):
+        self.Health -= damage
+        print(f'--------------------\n{self.Name} took {damage} damage\n--------------------')
