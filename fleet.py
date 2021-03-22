@@ -12,5 +12,3 @@ class Fleet:
         robot2 = Robot('Norm', 10)
         robot3 = Robot('Prime', 10)
         self.robots = [robot1, robot2, robot3]
-        for token in self.robots:
-            print(token)

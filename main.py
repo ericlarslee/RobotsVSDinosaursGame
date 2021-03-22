@@ -1,12 +1,9 @@
-from herd import Herd
-from fleet import Fleet
+from game import battle
 
 
 def main():
-    print('hello world')
-    herd1 = Herd()
-    fleet1 = Fleet()
-    herd1.print_herd()
+    battle()
+
 
 if __name__ == '__main__':
     main()
