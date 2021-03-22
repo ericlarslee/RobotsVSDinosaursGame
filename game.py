@@ -46,7 +46,7 @@ def battle():
         print(len(dino_player_herd.dinos))
         robot_turn()
         print(len(robot_player_fleet.robots))
-        if len(dino_player_herd.dinos) == 0:
-            print('Congrats RoboMan, You won!')
-        else:
-            print('Congrats DinoMan, You won!')
+    if len(dino_player_herd.dinos) == 0:
+        print('Congrats RoboMan, You won!')
+    else:
+        print('Congrats DinoMan, You won!')
