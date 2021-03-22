@@ -1,7 +1,7 @@
 class Weapon:
     def __init__(self):
         self.type = 'dagger'
-        self.attack_damage = 2
+        self.attack_damage = 4
 
     # class Dagger:
     #     def __init__(self):

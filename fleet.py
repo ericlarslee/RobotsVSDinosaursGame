@@ -8,9 +8,9 @@ class Fleet:
 
 
     def populate_fleet(self):
-        robot1 = Robot('Mecha-Trike', 15)
-        robot2 = Robot('Mecha-Raptor', 10)
-        robot3 = Robot('Mecha-TRex', 10)
+        robot1 = Robot('Steve', 15)
+        robot2 = Robot('Norm', 10)
+        robot3 = Robot('Prime', 10)
         self.robots = [robot1, robot2, robot3]
         for token in self.robots:
             print(token)

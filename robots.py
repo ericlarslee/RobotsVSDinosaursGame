@@ -9,4 +9,3 @@ class Robot:
         self.Weapon = Weapon()
         self.Attack_Power = self.Weapon.attack_damage
 
-        

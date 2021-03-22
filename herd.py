@@ -16,3 +16,7 @@ class Herd:
         for token in self.dinos:
             print(token)
 
+    def print_herd(self):
+        for dinosaur in self.dinos:
+            print(dinosaur.Name)
+
